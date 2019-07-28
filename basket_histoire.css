@@ -1,0 +1,202 @@
+﻿body
+{
+    background-image: url("photo_accueil/background.png");
+    background-repeat:no-repeat; 
+    background-position:center;
+    background-size:cover;
+}
+
+#contenu-entete 
+{
+   width: 1200px;
+   margin:30px auto;   
+}
+
+#SD{
+	background-color : white;
+}
+
+#entete #background1
+{
+    margin:-7px -7px 0 -7px;
+    background-image: url("photo_accueil/background3.png");  
+    height:50px; 
+}
+
+#entete #background2
+{
+    margin:-7px -7px 0 -7px;
+    background-image: url("photo_accueil/background.png");
+	background-size:cover;
+    height:194px;
+}
+
+#entete-haut
+{
+margin:20px;
+padding-top:30px;
+display:inline;
+}
+
+#entete-haut p1
+{
+    margin:10px 20px 20px 35px;
+    font-size:1.5em;
+    float:left;
+    color:#BdBdBd;
+}
+
+#entete-haut div a
+{
+    float:right;
+    height:20px;
+    margin-right:20px;
+}
+
+#entete-haut .FBTW
+{
+    float:right;
+    width:20;
+    height:20;
+    margin-left:50px;
+    margin-right:30px
+}
+
+#entete-bas
+{
+ margin:12px;
+ display: inline;
+}
+
+#menu /* Ensemble du menu */
+{
+     
+        display:block
+        width: 1000px;
+        margin: 4em 0px 0px 11em ;
+        border: 1px solid #001; 
+        background-image: linear-gradient(#444, #111);
+        border-radius: 6px;
+        box-shadow: 0 1px #707070;
+        text-align:center;
+}
+      
+
+
+#menu a 
+{
+        font-family : Arial; /* +beau */
+        font-size : 17px; /* hauteur du texte */
+	font-weight : bold;
+	float:left;
+        padding : 10px 25px; 
+        color : #DDD; 
+	text-shadow: 0 1px 0 #000;
+        text-decoration : none; 
+        width : 70px;
+}
+
+
+#menu ul 
+{
+	margin: 20px 0 0 0;
+	padding:0;
+	visibility: hidden;
+	top: 40px;
+	left: 0px;
+	z-index: 9999;
+	background: #444;
+	background: linear-gradient(#444, #111);
+	box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+	border-radius: 3px;
+	all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	position: absolute; /* Position absolue */ 
+}
+
+#menu li /* Éléments des listes */      
+{ 
+	float:left;
+        display:inline;
+        list-style : none;/* on supprime le style par défaut de la liste */        
+        position: relative;
+}
+
+#menu li:hover
+{
+    background-color: blue;
+    transition: background-color 300ms ease;
+
+}  
+
+#menu li:hover ul { 
+        opacity: 1;
+        visibility: visible;
+        margin:0;
+       transition: color 400ms ease;
+}
+
+#menu ul a {
+        padding: 10px;
+        width: 100px;
+        display: block;
+        float: none;  
+}
+
+#menu ul a:hover {  
+        background-color: #0186ba;
+        background-image: linear-gradient(#04acec, #0186ba);
+}
+
+#menu ul li {
+        float: none;
+        display: block;
+        border: 0;
+        box-shadow: 0 1px 0 #111, 0 2px 0 #6AF;
+}
+
+#outside{
+	width : 1100px;
+	margin-left: auto; 
+    margin-right: auto;
+    background-color:white;
+}
+
+#bas-de-page
+{ 
+    text-align:center;
+    padding:10px;
+    background-repeat: repeat;
+    background-image:url("photo_accueil/background3.png");
+    background-position: center top;
+    position: relative;    
+    color: #9d9d9d;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin: -10px -8px 0px -8px;
+}
+
+footer #text
+{
+  display:block;
+  margin-top:10px;
+  margin-left:80px;
+  word-spacing: 7px;
+}
+
+#bas-de-page a
+{
+  text-decoration:none;
+  color: #9d9d9d;
+  
+}
+
+#bas-de-page a:hover {
+  color: #fff;
+  transition: color 400ms ease;
+}
+.position_d
+{
+margin-left:2em;
+}

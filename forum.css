@@ -1,0 +1,96 @@
+﻿body
+{
+    background-image: url("photo_accueil/background.png");
+    background-repeat:no-repeat; 
+    background-position:center;
+    background-size:cover;
+}
+
+
+#forum{
+	background-image : url("photo_accueil/fond.jpg");
+	width : 1200px;
+	margin-left: auto; 
+	margin-right: auto;
+	background-color : white;
+	margin-bottom : 2em;	
+}
+#inscrit
+{
+	text-align : center;
+	margin-top:5em;
+	border: 1px solid black;
+	padding: 0.5em;
+	
+	
+}
+#rapide
+{
+color:#FE9A2E;
+}
+.categorie
+{
+border:1px solid black;
+color:#24a6d9;
+background-color:#D5D4D2;
+padding:0.5em;
+
+}
+h3
+{
+color: #24a6d9;
+}
+th
+{
+text-align: left;
+padding-left:1em;
+}
+
+td
+{
+border:1px solid black;
+}
+
+table
+{
+border-collapse:collapse
+}
+.droite
+{
+width:3em;
+}
+
+#bas-de-page
+{ 
+    text-align:center;
+    padding:10px;
+    background-repeat: repeat;
+    background-image:url("photo_accueil/background3.png");
+    background-position: center top;
+    position: relative;    
+    color: #9d9d9d;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin: -10px -8px 0px -8px;
+}
+
+footer #text
+{
+  display:block;
+  margin-top:10px;
+  margin-left:80px;
+  word-spacing: 7px;
+}
+
+#bas-de-page a
+{
+  text-decoration:none;
+  color: #9d9d9d;
+  
+}
+
+#bas-de-page a:hover {
+  color: #fff;
+  transition: color 400ms ease;
+}
